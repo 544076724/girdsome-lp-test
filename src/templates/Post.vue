@@ -56,8 +56,10 @@ import MarkdownIt from 'markdown-it'
 const md = new MarkdownIt()
 export default {
   name: 'Post',
-  metaInfo: {
-    title: this.$page.post.title
+  metaInfo () {
+    return {
+      title: this.$page.post.title
+    }
   },
   methods: {
     mdToHtml (markdown) {
