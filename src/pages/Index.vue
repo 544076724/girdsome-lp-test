@@ -25,7 +25,7 @@
       
       data-v-460714ac="" class="latest-journals-heading container"><span data-v-460714ac="" class="label">
           <font style="vertical-align: inherit;">
-            <font style="vertical-align: inherit;">最新和最伟大的</font>
+            <font style="vertical-align: inherit;">最新和最热的</font>
           </font>
         </span></div>
       <div data-v-460714ac="" class="latest-journals">
