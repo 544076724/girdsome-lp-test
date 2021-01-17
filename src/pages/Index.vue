@@ -11,7 +11,7 @@
           <g-link :to="topPost.node.path" data-v-50cbff3e=""  class="project-link">
             <img :style="{width:'100%'}" :src="GRIDSOME_API_URL+topPost.node.cover.url" alt="" data-v-50cbff3e="" class="thumbnail g-image g-image--lazy g-image--loaded">
             <h3 data-v-50cbff3e="" class="project-title">{{topPost.node.title}}</h3>
-            <div data-v-50cbff3e="" class="categories">
+            <div data-v-50cbff3e="" class="categories" :style="{width:'6rem',height:'6rem',backgroundImage:`url(${GRIDSOME_API_URL+topPost.node.cover.url})`}">
               <span data-v-50cbff3e="" class="category" v-for="tag in topPost.node.tags" :key="tag.id">{{tag.title}}</span>
 
             </div>
