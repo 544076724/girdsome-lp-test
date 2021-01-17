@@ -77,7 +77,7 @@ export default {
     title: '首页',
     meta: [{                 // set meta
       name: 'referrer',
-        content: 'origin'
+        content: 'never'
     }]
   }
 }
