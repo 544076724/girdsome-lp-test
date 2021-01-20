@@ -20,15 +20,15 @@
 
         </div>
         <nav class="nav right" data-v-7e33895e="">
-          <g-link :to="'/Magazine/'" class="nav__link" data-v-7e33895e="">
+          <g-link :to="'/magazine/'" class="nav__link" data-v-7e33895e="">
             杂志
           </g-link>
-          <g-link :to="'/Feedback/'" class="nav__link" data-v-7e33895e="">
+          <g-link :to="'/feedback/'" class="nav__link" data-v-7e33895e="">
             问好!
           </g-link>
         
 
-        
+
         </nav>
       </div>
     </header>
